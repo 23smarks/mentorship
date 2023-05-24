@@ -1,4 +1,3 @@
-import argparse
 from array import *
 
 columnIndex = 0
@@ -109,6 +108,4 @@ def getPasswordTime(str):
         return password_table[columnIndex][rowIndex]
     else:
         return "Not Supported"
-    
-
-print(getPasswordTime("hello"))
+   
